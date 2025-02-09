@@ -40,5 +40,5 @@ I'd like to keep refining core concepts like flex and grid, before stepping into
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Agustin Rodriguez](https://kerchu.github.io/Personal-Webpage/)
+- Frontend Mentor - [@Kerchu](https://www.frontendmentor.io/profile/Kerchu)

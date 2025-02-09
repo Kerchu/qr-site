@@ -25,14 +25,17 @@ main{
 }
 #description{
   margin: auto 20px;
+  font-family: 'Outfit', sans-serif;
 }
 #description > h1{
   color: hsl(218, 44%, 22%);
+  font-weight: 700;
 }
 #description > p{
   font-size: 15px;
   color: hsl(216, 15%, 48%);
   line-height: 20px;
+  font-weight: 400;
 }
 /*----------------------------Footer---------------------------*/
 .attribution { 
@@ -41,3 +44,45 @@ main{
   margin-top: auto;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/*--------------------------Responsive-------------------------------*/
+@media (min-width: 1440px){
+  #card{
+    margin: 70% 42%;
+  }
+  #description, p{
+    margin: auto 50px;
+    font-size: large;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px){
+  #card{
+    margin: 40% 28%;
+  }
+  #description, p{
+    margin: auto 50px;
+    font-size: large;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  #card{
+    margin: 30% 20%;
+  }
+  #description, p{
+    margin: auto 50px;
+    font-size: large;
+  }
+  #qr-code{
+    margin: 3%;
+  }
+}
+@media (min-width: 375px) and (max-width: 768px){
+  #card{
+    margin: 30% 10%;
+  }
+}
+@media (max-width: 375px){
+  #card{
+    margin: 30% 5%;
+  }
+}

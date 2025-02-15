@@ -7,10 +7,10 @@
 
 /*-----------------------------Body----------------------------*/
 body{
-  display: flex;
-  flex-direction: column;
   background-color: hsl(212, 45%, 89%);
   padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 main{
   min-height: 100vh;

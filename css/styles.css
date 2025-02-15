@@ -1,4 +1,11 @@
 /*----------------------------Global---------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----------------------------Body----------------------------*/
 body{
   display: flex;
   flex-direction: column;
@@ -13,21 +20,25 @@ main{
   background-color: hsl(0, 0%, 100%);
   padding: 10px;
   text-align: center;
-  margin: 10% 42%;
 }
 #qr-code{
-  margin: 0;
+  margin: 2%;
+  text-align: center;
+  display: block;
 }
 #qr-code > img{
   max-width: 100%;
   height: auto;
   border-radius: 20px;
+  
 }
 #description{
-  margin: auto 20px;
+  margin: 0 20px 20px;
   font-family: 'Outfit', sans-serif;
+  word-wrap: break-word;
 }
 #description > h1{
+  margin-bottom: 15px;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
 }
@@ -37,6 +48,7 @@ main{
   line-height: 20px;
   font-weight: 400;
 }
+
 /*----------------------------Footer---------------------------*/
 .attribution { 
   font-size: 11px; 
@@ -48,16 +60,12 @@ main{
 /*--------------------------Responsive-------------------------------*/
 @media (min-width: 1440px){
   #card{
-    margin: 70% 42%;
-  }
-  #description, p{
-    margin: auto 50px;
-    font-size: large;
+    margin: 10% 40%;
   }
 }
 @media (min-width: 1024px) and (max-width: 1440px){
   #card{
-    margin: 40% 28%;
+    margin: 10% 30%;
   }
   #description, p{
     margin: auto 50px;
@@ -66,23 +74,25 @@ main{
 }
 @media (min-width: 768px) and (max-width: 1024px){
   #card{
-    margin: 30% 20%;
+    margin: 10% 20%;
   }
   #description, p{
     margin: auto 50px;
     font-size: large;
   }
-  #qr-code{
-    margin: 3%;
+}
+@media (min-width: 500px) and (max-width: 768px){
+  #card{
+    margin: 15% 20%;
   }
 }
-@media (min-width: 375px) and (max-width: 768px){
+@media (min-width: 375px) and (max-width: 500px){
   #card{
-    margin: 30% 10%;
+    margin: 30% 20%;
   }
 }
 @media (max-width: 375px){
   #card{
-    margin: 30% 5%;
+    margin: 40% 20%;
   }
 }
